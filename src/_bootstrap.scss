@@ -1,0 +1,18 @@
+/*Variable overrides for bootstrap*/
+
+$primary: #1266f1;
+$secondary: #b23cfd;
+$success: #00b74a;
+$info: #39c0ed;
+$warning: #ffa900;
+$danger: #f93154;
+$light: #303030;
+$dark: #212121;
+
+$white: whitesmoke;
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+  @extend .bg-black;
+}
