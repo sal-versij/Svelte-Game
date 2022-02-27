@@ -8,7 +8,7 @@
                     Voluptatum, quisquam.
                 </blockquote>
             </figure>
-            <a href="/nanite-n-dungeons">prova</a>
+            <a href="/game/1">prova</a>
         </div>
     </div>
 </div>

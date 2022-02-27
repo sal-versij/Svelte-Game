@@ -41,7 +41,11 @@ export default {
         format: 'iife',
         name: 'app',
         file: 'public/build/bundle.js',
+        // globals: {
+        //     '@popperjs/core': 'Popper'
+        // }
     },
+    // external: ['@popperjs/core'],
     plugins: [
         svelte({
             compilerOptions: {

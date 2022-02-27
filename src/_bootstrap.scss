@@ -6,6 +6,7 @@ $success: #00b74a;
 $info: #39c0ed;
 $warning: #ffa900;
 $danger: #f93154;
+$error: #f93154;
 $light: #303030;
 $dark: #212121;
 
@@ -15,4 +16,8 @@ $white: whitesmoke;
 
 body {
   @extend .bg-black;
+}
+
+.nav-link {
+  color: #fff;
 }
