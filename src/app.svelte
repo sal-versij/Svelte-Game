@@ -3,13 +3,13 @@
     import {Route, Router} from "svelte-routing";
     import Home from './home.svelte';
     import NotFound from './notFound.svelte';
-    import NaniteNDungeons from './Nanite&Dungeons/game.svelte';
+    import Game1 from './game1-name-undecided/index.svelte';
 </script>
 
 <Layout>
     <Router>
         <Route component="{Home}" path="/"/>
-        <Route component="{NaniteNDungeons}" path="/nanite-n-dungeons/*"/>
+        <Route component="{Game1}" path="/game/1/*"/>
         <Route component="{NotFound}"/>
     </Router>
 </Layout>

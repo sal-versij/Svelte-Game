@@ -2,12 +2,13 @@
     import {Route, Router} from "svelte-routing";
     import SplashScreen from './splashScreen.svelte';
     import MainMenu from './menu/main.svelte';
+    import Game from './game.svelte';
 </script>
 
-<Router basepath="/nanite-n-dungeons">
+<Router basepath="/game/1">
     <Route component="{SplashScreen}" path="/"/>
     <Route component="{MainMenu}" path="/menu/*"/>
-    <Route component="{MainMenu}" path="/singleplayer"/>
+    <Route component="{Game}" path="/game"/>
 </Router>
 
 <style lang="scss"></style>
