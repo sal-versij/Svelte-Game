@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Game from "./Game.ts";
-    import Breadcrumb from './components/breadcrumb.svelte'
+    import Game from "../models/Game.ts";
+    import Breadcrumb from '../components/breadcrumb.svelte'
 
     export let params: { universe: number, world: number };
     export let game: Game;

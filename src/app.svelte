@@ -15,5 +15,5 @@
 </Layout>
 
 <style global lang="scss">
-  @import './bootstrap';
+  @import 'scss/style';
 </style>

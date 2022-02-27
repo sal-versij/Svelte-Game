@@ -1,8 +1,8 @@
 <script lang="ts">
     import {Route, Router} from "svelte-routing";
     import SplashScreen from './splashScreen.svelte';
-    import MainMenu from './menu/main.svelte';
-    import Game from './game.svelte';
+    import MainMenu from './scenes/menu/main.svelte';
+    import Game from './scenes/game.svelte';
 </script>
 
 <Router basepath="/game/1">
