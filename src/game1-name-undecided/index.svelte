@@ -8,7 +8,6 @@
 <Router basepath="/game/1">
     <Route component="{SplashScreen}" path="/"/>
     <Route component="{MainMenu}" path="/menu/*"/>
-    <Route component="{Game}" path="/g/*"/>
+    <Route component="{Game}" path="/g"/>
 </Router>
 
-<style lang="scss"></style>
